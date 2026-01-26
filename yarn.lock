@@ -6261,7 +6261,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@oxc-project/types@npm:=0.110.0, @oxc-project/types@npm:^0.110.0":
+"@oxc-project/types@npm:=0.110.0":
   version: 0.110.0
   resolution: "@oxc-project/types@npm:0.110.0"
   checksum: 10/427a130ca22bfbc1c67652309022a7d9ed452ec9fcb05cd13e9601bfb3a68a3755a50e731a10e84849937850c55b0cfc24f708e3e84710b229790f7fac22c423
@@ -6272,6 +6272,13 @@ __metadata:
   version: 0.115.0
   resolution: "@oxc-project/types@npm:0.115.0"
   checksum: 10/14456080abfe29f720aa925b333b9db019d437c5a11eb128650b37092fd324e8884fce5fdf11242dc1a5b934e13d4ac8396885c76f8db9fe46e2a965a2286f5f
+  languageName: node
+  linkType: hard
+
+"@oxc-project/types@npm:^0.111.0":
+  version: 0.111.0
+  resolution: "@oxc-project/types@npm:0.111.0"
+  checksum: 10/8482551ce7ae2d6103108c0b5463d53592a545a3eb100fc955648af8e38442cf36706d1671eded9eab4b8e9f1f074d23ef046609a530434920a63e1d74b56733
   languageName: node
   linkType: hard
 
@@ -9823,7 +9830,7 @@ __metadata:
     "@opentelemetry/api": "npm:^1.9.0"
     "@opentelemetry/exporter-trace-otlp-grpc": "npm:^0.54.2"
     "@opentelemetry/sdk-node": "npm:^0.54.2"
-    "@oxc-project/types": "npm:^0.110.0"
+    "@oxc-project/types": "npm:^0.111.0"
     "@parse/node-apn": "npm:^7.0.1"
     "@playwright/test": "npm:^1.52.0"
     "@react-aria/toolbar": "npm:^3.0.0-nightly.5042"
