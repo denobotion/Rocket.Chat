@@ -1,21 +1,38 @@
-import type { Root } from './definitions';
-import * as grammar from './grammar.pegjs';
+/**
+ * Message Parser for Rocket.Chat
+ *
+ * Parses message text into an Abstract Syntax Tree (AST)
+ * that can be used for rendering rich text messages.
+ */
 
-export type * from './definitions';
+export { parse } from './parser';
+export { serialize } from './serializer';
 
-export { isNodeOfType } from './guards';
-
-export type Options = {
-	colors?: boolean;
-	emoticons?: boolean;
-	katex?: {
-		dollarSyntax?: boolean;
-		parenthesisSyntax?: boolean;
-	};
-	customDomains?: string[];
-};
-
-export const parse = (input: string, options?: Options): Root => grammar.parse(input, options);
-
-export type { Root as MarkdownAST };
-export { parse as parser };
+export type {
+  Root,
+  Paragraph,
+  Heading,
+  Bold,
+  Italic,
+  Strike,
+  Inline,
+  Plain,
+  Link,
+  Image,
+  Mention,
+  Channel,
+  Emoji,
+  Code,
+  InlineCode,
+  Quote,
+  OrderedList,
+  UnorderedList,
+  ListItem,
+  LineBreak,
+  BigEmoji,
+  KatexBlock,
+  KatexInline,
+  ColorItem,
+  Colors,
+  MarkupInteractionCallback,
+} from './definitions/messageObject';
