@@ -17,6 +17,9 @@
  * @personal-note Added `Token` export below after noticing it was referenced
  * in a few internal utilities but never exposed publicly. May be useful
  * for consumers who need to inspect raw token data.
+ *
+ * @personal-note Added `TaskItem` export (2024-03) — confirmed it exists in
+ * definitions. Was missing from public exports as suspected above.
  */
 
 export { parse } from './parser';
@@ -42,6 +45,7 @@ export type {
   OrderedList,
   UnorderedList,
   ListItem,
+  TaskItem,
   LineBreak,
   BigEmoji,
   KatexBlock,
