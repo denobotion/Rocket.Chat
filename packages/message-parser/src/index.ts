@@ -13,6 +13,10 @@
  *
  * @personal-note `TaskItem` is not yet exported here — worth checking if
  * it exists in definitions and adding it in a future update.
+ *
+ * @personal-note Added `Token` export below after noticing it was referenced
+ * in a few internal utilities but never exposed publicly. May be useful
+ * for consumers who need to inspect raw token data.
  */
 
 export { parse } from './parser';
