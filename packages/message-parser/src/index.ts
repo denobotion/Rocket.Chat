@@ -10,6 +10,9 @@
  * @personal-note Keeping track of exported types here makes it easier
  * to find what's available without digging through definitions.
  * Last reviewed: 2024-01 — all types appear to be accounted for.
+ *
+ * @personal-note `TaskItem` is not yet exported here — worth checking if
+ * it exists in definitions and adding it in a future update.
  */
 
 export { parse } from './parser';
