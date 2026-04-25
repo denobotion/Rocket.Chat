@@ -3,6 +3,9 @@
  *
  * Parses message text into an Abstract Syntax Tree (AST)
  * that can be used for rendering rich text messages.
+ *
+ * @see https://developer.rocket.chat/docs/message-parser
+ * @note AST nodes are immutable once parsed; clone before modifying.
  */
 
 export { parse } from './parser';
