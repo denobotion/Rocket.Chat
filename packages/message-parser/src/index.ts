@@ -6,6 +6,10 @@
  *
  * @see https://developer.rocket.chat/docs/message-parser
  * @note AST nodes are immutable once parsed; clone before modifying.
+ *
+ * @personal-note Keeping track of exported types here makes it easier
+ * to find what's available without digging through definitions.
+ * Last reviewed: 2024-01 — all types appear to be accounted for.
  */
 
 export { parse } from './parser';
